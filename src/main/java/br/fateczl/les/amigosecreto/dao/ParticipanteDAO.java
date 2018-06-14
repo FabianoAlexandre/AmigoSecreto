@@ -11,6 +11,11 @@ import br.fateczl.les.amigosecreto.util.FabricaEntityManager;
 public class ParticipanteDAO implements Serializable{
 	
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public void salvar(Participante participante){ //salvar e editar*
 	/**	Set<Participante> participanteSet = new HashSet<>(); 
 		for (Iterator<Participante> iterator = participanteSet.iterator(); iterator.hasNext();) {

@@ -12,7 +12,7 @@ import javax.persistence.Id;
 
 @Entity
 public class Evento implements Serializable{
-
+	private static final long serialVersionUID = 1L;
 	private Long id;
 	private String nome;
 	private DecimalFormat valorSugerido;

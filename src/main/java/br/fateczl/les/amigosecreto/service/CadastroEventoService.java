@@ -8,6 +8,10 @@ import br.fateczl.les.amigosecreto.dao.EventoDAO;
 import br.fateczl.les.amigosecreto.entidade.Evento;
 
 public class CadastroEventoService implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	@Inject
 	private EventoDAO eventoDAO;
 	

@@ -11,6 +11,11 @@ import br.fateczl.les.amigosecreto.service.NegocioException;
 
 public class ParticipanteBean implements Serializable{
 
+/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 @Named
 @ViewScoped
 private CadastroParticipanteService cadastroparticipanteservice;

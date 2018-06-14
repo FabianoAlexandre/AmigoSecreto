@@ -9,6 +9,11 @@ import br.fateczl.les.amigosecreto.util.FabricaEntityManager;
 
 public class VestuarioDAO implements Serializable{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public void salvar(Vestuario vestuario){ //salvar e editar*
 		 
 			EntityManager entityManager = FabricaEntityManager.getEntityManager();

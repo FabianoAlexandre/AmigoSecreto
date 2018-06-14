@@ -15,6 +15,11 @@ import br.fateczl.les.amigosecreto.service.NegocioException;
 @ViewScoped //matem a baen enquanto estiver execultando a pagina
 public class EventoBean implements Serializable{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	private CadastroEventoService cadastroeventoservice;
 	
 	private Evento evento;
